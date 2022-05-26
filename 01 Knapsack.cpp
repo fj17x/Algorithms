@@ -17,5 +17,5 @@ int main()
 	int profit[] = {80, 100, 140};
 	int weight[] = {5, 15, 25};
 	int c = 50;
-	cout << "Max profit:" << KS(c, weight, profit, sizeof(profit) / sizeof(profit[0]));
+	cout << "Max profit:" << KS(c, weight, profit, sizeof(profit) / sizeof(int));
 }
